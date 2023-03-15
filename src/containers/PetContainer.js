@@ -40,7 +40,6 @@ const PetContainer = () => {
     return(
         <>
             <PetForm
-            pets={pets}
             onSubmit={postPet}
             />
             <PetList 
